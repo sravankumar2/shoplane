@@ -1,0 +1,61 @@
+.clothing-card{    
+    padding: 4% 8% 0;
+}
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.product-card {
+    width: 200px;
+    /* min-width: 19%; */
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    box-shadow: 0 2px 5px rgb(0 0 0 / 60%);
+  } 
+  .product-image{
+    width:100%;
+}
+.product-meta {
+    box-sizing: border-box;
+    padding: 12px;  
+    text-align: left;
+    
+    
+}
+.product-card a{
+    text-decoration: none;
+    color: rgb(27, 25, 25);
+}
+/* .product-card:hover .product-meta{
+    background-color:#ddd;
+} */
+.product-meta > h3 {
+    font-weight: 600;   
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 0.5px;
+   
+}
+.product-meta > h5 {
+    font-weight: 600;
+    opacity: 0.8;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.product-meta > p {
+    margin: 0;
+    margin-top: 12px;
+    font-weight: 600;
+    color: #009688;
+}
